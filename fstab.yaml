@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/fe-lix-/xwalk-playground/main"
+    url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/felix-test-org/xwalk-playground/main"
     type: "markup"
     suffix: ".html"
