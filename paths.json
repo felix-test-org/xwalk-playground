@@ -1,6 +1,6 @@
 {
   "mappings": [
-    "/content/felix-playground/:/",
-    "/content/felix-playground/configuration:/.helix/config.json"
+    "/content/xwalk-extensibility-playground/:/",
+    "/content/xwalk-extensibility-playground/configuration:/.helix/config.json"
   ]
 }
