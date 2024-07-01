@@ -95,6 +95,13 @@ function handleReloadPage(event) {
   a.click();
 }
 
+function enableExtensions(extensions) {
+  const meta = document.createElement('meta');
+  meta.name = 'urn:adobe:aue:config:extensions';
+  meta.content = extensions.join(',');
+  document.getElementsByTagName('head')[0].appendChild(meta);
+}
+
 function attachEventListners(main) {
   [
     'aue:content-patch',
@@ -110,4 +117,5 @@ function attachEventListners(main) {
   main.addEventListener('extension:reloadPage', handleReloadPage);
 }
 
+enableExtensions(['https://1613036-uexassetpicker.adobeio-static.net/index.html']);
 attachEventListners(document.querySelector('main'));
