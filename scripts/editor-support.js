@@ -102,6 +102,15 @@ function enableExtensions(extensions) {
   document.getElementsByTagName('head')[0].appendChild(meta);
 }
 
+function addConnections(connections) {
+  connections.keys().forEach((connectionName) => {
+    const meta = document.createElement('meta');
+    meta.name = `urn:adobe:aue:system:${connectionName}`;
+    meta.content = connections[connectionName];
+    document.getElementsByTagName('head')[0].appendChild(meta);
+  });
+}
+
 function attachEventListners(main) {
   [
     'aue:content-patch',
@@ -118,4 +127,7 @@ function attachEventListners(main) {
 }
 
 enableExtensions(['https://1613036-uexassetpicker.adobeio-static.net/index.html']);
+addConnections({
+  aemconnection: 'author-p130360-e1272151.adobeaemcloud.com',
+});
 attachEventListners(document.querySelector('main'));
