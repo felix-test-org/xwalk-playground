@@ -128,6 +128,6 @@ function attachEventListners(main) {
 
 enableExtensions(['https://1613036-uexassetpicker.adobeio-static.net/index.html']);
 addConnections({
-  aemconnection: 'author-p130360-e1272151.adobeaemcloud.com',
+  aemconnection2: 'author-p130360-e1272151.adobeaemcloud.com',
 });
 attachEventListners(document.querySelector('main'));
