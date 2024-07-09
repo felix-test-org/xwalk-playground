@@ -126,7 +126,7 @@ function attachEventListners(main) {
   main.addEventListener('extension:reloadPage', handleReloadPage);
 }
 
-enableExtensions(['https://1613036-uexassetpicker.adobeio-static.net/index.html']);
+enableExtensions(['https://1613036-uexassetpicker-stage.adobeio-static.net/index.html']);
 addConnections({
   aemconnection2: 'author-p130360-e1272151.adobeaemcloud.com',
 });
