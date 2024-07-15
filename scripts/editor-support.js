@@ -103,7 +103,7 @@ function enableExtensions(extensions) {
 }
 
 function addConnections(connections) {
-  connections.keys().forEach((connectionName) => {
+  Object.keys(connections).forEach((connectionName) => {
     const meta = document.createElement('meta');
     meta.name = `urn:adobe:aue:system:${connectionName}`;
     meta.content = connections[connectionName];
