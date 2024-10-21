@@ -216,6 +216,14 @@
         "label": "Description",
         "required": true,
         "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "fileReference",
+        "required": true,
+        "label": "Image",
+        "multi": false
       }
     ]
   }
