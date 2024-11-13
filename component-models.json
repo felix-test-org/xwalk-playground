@@ -193,7 +193,7 @@
         "component": "custom-asset-namespace:custom-asset",
         "name": "image",
         "label": "Image",
-        "configUrl": "https://raw.githubusercontent.com/felix-test-org/xwalk-playground/main/tools/assets-selector/image.config.json",
+        "configUrl": "https://author-p130360-e1272151.adobeaemcloud.com/content/xwalk-extensibility-playground.resource/tools/assets-selector/image.config.json",
         "configFileName": "image.config.json",
         "required": true,
         "valueType": "string",
