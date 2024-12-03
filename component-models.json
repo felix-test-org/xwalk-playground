@@ -209,21 +209,6 @@
         "name": "imageAlt",
         "label": "Alt Text",
         "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "description",
-        "label": "Description",
-        "required": true,
-        "valueType": "string"
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "fileReference",
-        "required": true,
-        "label": "Image",
-        "multi": false
       }
     ]
   }
