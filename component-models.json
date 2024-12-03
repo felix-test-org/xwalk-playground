@@ -200,11 +200,6 @@
         "myValue": "myValue1"
       },
       {
-        "component": "custom-asset-namespace:custom-asset-mimetype",
-        "valueType": "string",
-        "name": "imageMimeType"
-      },
-      {
         "component": "text",
         "name": "imageAlt",
         "label": "Alt Text",
