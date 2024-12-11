@@ -206,7 +206,7 @@
         "label": "Image",
         "configUrl": "/content/xwalk-extensibility-playground.resource/tools/assets-selector/image.config.json",
         "configFileName": "image.config.json",
-        "required": true,
+        "required": true
       },
       {
         "component": "custom-asset-namespace:custom-asset-mimetype",
