@@ -187,11 +187,11 @@
     ]
   },
   {
-    "id": "product",
+    "id": "product-teaser",
     "fields": [
       {
-        "component": "product_picker",
-        "name": "Product",
+        "component": "sku",
+        "name": "sku",
         "label": "Alt Text",
         "valueType": "string"
       }
