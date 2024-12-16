@@ -139,6 +139,7 @@ function renderProduct(product, config, block) {
 
 export default async function decorate(block) {
   const config = readBlockConfig(block);
+  config['sku'] = block.querySelector('[data-aue-prop="sku"]').textContent;
   config['details-button'] = !!(config['details-button'] || config['details-button'] === 'true');
   config['cart-button'] = !!(config['cart-button'] || config['cart-button'] === 'true');
 
