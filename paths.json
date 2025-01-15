@@ -1,6 +1,7 @@
 {
   "mappings": [
     "/content/xwalk-extensibility-playground/:/",
-    "/content/xwalk-extensibility-playground/configuration:/.helix/config.json"
+    "/content/xwalk-extensibility-playground/configuration:/.helix/config.json",
+    "/content/xwalk-extensibility-playground/headers:/.helix/headers.json"
   ]
 }
