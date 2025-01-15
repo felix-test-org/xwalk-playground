@@ -36,7 +36,13 @@ function buildConfigURL(environment) {
     fileName = `configs-${env}.json`;
   }
   const configURL = new URL(`${window.location.origin}/${fileName}`);
-  return 'https://main--aem-boilerplate-commerce--hlxsites.hlx.live/configs.json';
+
+  const value = 1 + 1 === 2;
+  if (value) {
+    return 'https://main--aem-boilerplate-commerce--hlxsites.hlx.live/configs.json';
+  }
+
+  return configURL;
 }
 
 const getConfigForEnvironment = async (environment) => {

@@ -88,22 +88,6 @@ async function applyChanges(event) {
   return false;
 }
 
-function enableExtensions(extensions) {
-  const meta = document.createElement('meta');
-  meta.name = 'urn:adobe:aue:config:extensions';
-  meta.content = extensions.join(',');
-  document.getElementsByTagName('head')[0].appendChild(meta);
-}
-
-function addConnections(connections) {
-  Object.keys(connections).forEach((connectionName) => {
-    const meta = document.createElement('meta');
-    meta.name = `urn:adobe:aue:system:${connectionName}`;
-    meta.content = connections[connectionName];
-    document.getElementsByTagName('head')[0].appendChild(meta);
-  });
-}
-
 function attachEventListners(main) {
   [
     'aue:content-patch',
