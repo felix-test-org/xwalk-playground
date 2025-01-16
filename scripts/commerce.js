@@ -21,11 +21,11 @@ export const priceFieldsFragment = `fragment priceFields on ProductViewPrice {
 export async function commerceEndpointWithQueryParams() {
   // Set Query Parameters so they can be appended to the endpoint
   const urlWithQueryParams = new URL(await getConfigValue('commerce-endpoint'));
-  urlWithQueryParams.searchParams.append('Magento-Environment-Id', await getConfigValue('commerce-environment-id'));
-  urlWithQueryParams.searchParams.append('Magento-Website-Code', await getConfigValue('commerce-website-code'));
-  urlWithQueryParams.searchParams.append('Magento-Store-View-Code', await getConfigValue('commerce-store-view-code'));
-  urlWithQueryParams.searchParams.append('Magento-Store-Code', await getConfigValue('commerce-store-code'));
-  urlWithQueryParams.searchParams.append('Magento-Customer-Group', await getConfigValue('commerce-customer-group'));
+  urlWithQueryParams.searchParams.append('Magento-Environment-Id', await getConfigValue('commerce.headers.cs.Magento-Environment-Id'));
+  urlWithQueryParams.searchParams.append('Magento-Website-Code', await getConfigValue('commerce.headers.cs.Magento-Website-Code'));
+  urlWithQueryParams.searchParams.append('Magento-Store-View-Code', await getConfigValue('commerce.headers.cs.Magento-Store-View-Code'));
+  urlWithQueryParams.searchParams.append('Magento-Store-Code', await getConfigValue('commerce.headers.cs.Magento-Store-Code'));
+  urlWithQueryParams.searchParams.append('Magento-Customer-Group', await getConfigValue('commerce.headers.cs.Magento-Customer-Group'));
   return urlWithQueryParams;
 }
 
@@ -34,7 +34,7 @@ export async function commerceEndpointWithQueryParams() {
 export async function performCatalogServiceQuery(query, variables) {
   const headers = {
     'Content-Type': 'application/json',
-    'x-api-key': await getConfigValue('commerce-x-api-key'),
+    'x-api-key': await getConfigValue('commerce.headers.cs.x-api-key'),
   };
 
   const apiCall = await commerceEndpointWithQueryParams();

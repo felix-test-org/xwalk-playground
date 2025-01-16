@@ -140,7 +140,7 @@ function renderProduct(product, config, block) {
 export default async function decorate(block) {
   const config = readBlockConfig(block);
   // eslint-disable-next-line
-  config['sku'] = block.querySelector('[data-aue-prop="sku"]').textContent;
+  config['sku'] = block.querySelector('[data-aue-prop="sku"]')?.textContent || block.textContent.trim();
   config['details-button'] = !!(config['details-button'] || config['details-button'] === 'true');
   config['cart-button'] = !!(config['cart-button'] || config['cart-button'] === 'true');
 
