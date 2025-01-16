@@ -204,7 +204,7 @@
         "component": "custom-asset-namespace:custom-asset",
         "name": "image",
         "label": "Image",
-        "configUrl": "https://main--xwalk-playground--felix-test-org.hlx.live/tools/assets-selector/image.config.json",
+        "configUrl": "https://245265-felixstable-stage.adobeioruntime.net/api/v1/web/appbuilder-json/json",
         "configFileName": "image.config.json",
         "required": true
       },
