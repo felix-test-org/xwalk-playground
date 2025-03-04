@@ -8,27 +8,27 @@
             "value": "default"
         },
         {
-            "key": "commerce.headers.cs.Magento-Customer-Group",
+            "key": "commerce-customer-group",
             "value": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c"
         },
         {
-            "key": "commerce.headers.cs.Magento-Environment-Id",
+            "key": "commerce-environment-id",
             "value": "aa4d8263-f6cf-4d8c-ba8b-dc9693b9af05"
         },
         {
-            "key": "commerce.headers.cs.Magento-Store-Code",
+            "key": "commerce-store-code",
             "value": "main_website_store"
         },
         {
-            "key": "commerce.headers.cs.Magento-Store-View-Code",
+            "key": "commerce-store-view-code",
             "value": "default"
         },
         {
-            "key": "commerce.headers.cs.Magento-Website-Code",
+            "key": "commerce-website-code",
             "value": "base"
         },
         {
-            "key": "commerce.headers.cs.x-api-key",
+            "key": "commerce-x-api-key",
             "value": "catalog-service-sandbox-apollo"
         },
         {
