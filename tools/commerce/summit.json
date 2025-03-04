@@ -1,81 +1,92 @@
-
 {
-    "total": 18,
-    "limit": 18,
+    "total": 20,
     "offset": 0,
+    "limit": 20,
     "data": [
-      {
-        "key": "commerce.headers.cs.Magento-Customer-Group",
-        "value": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c"
-      },
-      {
-        "key": "commerce.headers.cs.Magento-Environment-Id",
-        "value": ""
-      },
-      {
-        "key": "commerce.headers.cs.Magento-Store-Code",
-        "value": "main_website_store"
-      },
-      {
-        "key": "commerce.headers.cs.Magento-Store-View-Code",
-        "value": "default"
-      },
-      {
-        "key": "commerce.headers.cs.Magento-Website-Code",
-        "value": "base"
-      },
-      {
-        "key": "commerce.headers.cs.x-api-key",
-        "value": ""
-      },
-      {
-        "key": "commerce-base-currency-code",
-        "value": "USD"
-      },
-      {
-        "key": "commerce-core-endpoint",
-        "value": "https://na1-sandbox.api.commerce.adobe.com/B2ybe42SYiaQj5kXjo2v2/graphql"
-      },
-      {
-        "key": "commerce-endpoint",
-        "value": "https://na1-sandbox.api.commerce.adobe.com/B2ybe42SYiaQj5kXjo2v2/graphql"
-      },
-      {
-        "key": "commerce-environment",
-        "value": "Production"
-      },
-      {
-        "key": "commerce-root-category-id",
-        "value": "2"
-      },
-      {
-        "key": "commerce-store-id",
-        "value": "1"
-      },
-      {
-        "key": "commerce-store-name",
-        "value": "Main Website Store"
-      },
-      {
-        "key": "commerce-store-url",
-        "value": "https://main--adobe-demo-store--adobe-commerce.aem.live/"
-      },
-      {
-        "key": "commerce-store-view-id",
-        "value": "1"
-      },
-      {
-        "key": "commerce-store-view-name",
-        "value": "Default Store View"
-      },
-      {
-        "key": "commerce-website-id",
-        "value": "1"
-      },
-      {
-        "key": "commerce-website-name",
-        "value": "Main Website"
-      }
+        {
+            "key": "commerce.headers.all.Store",
+            "value": "default"
+        },
+        {
+            "key": "commerce.headers.cs.Magento-Customer-Group",
+            "value": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c"
+        },
+        {
+            "key": "commerce.headers.cs.Magento-Environment-Id",
+            "value": "aa4d8263-f6cf-4d8c-ba8b-dc9693b9af05"
+        },
+        {
+            "key": "commerce.headers.cs.Magento-Store-Code",
+            "value": "main_website_store"
+        },
+        {
+            "key": "commerce.headers.cs.Magento-Store-View-Code",
+            "value": "default"
+        },
+        {
+            "key": "commerce.headers.cs.Magento-Website-Code",
+            "value": "base"
+        },
+        {
+            "key": "commerce.headers.cs.x-api-key",
+            "value": "catalog-service-sandbox-apollo"
+        },
+        {
+            "key": "commerce-base-currency-code",
+            "value": "USD"
+        },
+        {
+            "key": "commerce-core-endpoint",
+            "value": "https://www.aemshop.net/graphql"
+        },
+        {
+            "key": "commerce-endpoint",
+            "value": "https://catalog-service-sandbox.adobe.io/graphql"
+        },
+        {
+            "key": "commerce-environment",
+            "value": "Production"
+        },
+        {
+            "key": "commerce-root-category-id",
+            "value": "2"
+        },
+        {
+            "key": "commerce-store-id",
+            "value": "1"
+        },
+        {
+            "key": "commerce-store-name",
+            "value": "Main Website Store"
+        },
+        {
+            "key": "commerce-store-url",
+            "value": "https://www.aemshop.net/"
+        },
+        {
+            "key": "commerce-store-view-id",
+            "value": "1"
+        },
+        {
+            "key": "commerce-store-view-name",
+            "value": "Default Store View"
+        },
+        {
+            "key": "commerce-website-id",
+            "value": "1"
+        },
+        {
+            "key": "commerce-website-name",
+            "value": "Main Website"
+        },
+        {
+            "key": "commerce-store-view-switcher",
+            "value": "false"
+        }
+    ],
+    "columns": [
+        "key",
+        "value"
     ],
     ":type": "sheet"
-  }
+}
