@@ -205,8 +205,8 @@
         "name": "sku",
         "label": "Sku of product",
         "valueType": "string",
-        "test": {
-          "foo": "bar"
+        "commerce-picker": {
+          "selection-mode": "single"
         }
       }
     ]
@@ -217,35 +217,42 @@
       {
         "component": "commerce-picker:picker",
         "name": "singleSku",
-        "label": "Sku of product",
+        "label": "Single SKU",
         "valueType": "string",
-        "picker-selection-mode": "single",
-        "picker-selection-type": "item"
-
+        "commerce-picker": {
+          "selection-mode": "single",
+          "selection-type": "item"
+        }
       },
       {
         "component": "commerce-picker:picker",
         "name": "manySku",
-        "label": "Sku of product",
+        "label": "Several SKUs",
         "valueType": "string",
-        "picker-selection-mode": "multiple",
-        "picker-selection-type": "item"
+        "commerce-picker": {
+          "selection-mode": "multiple",
+          "selection-type": "item"
+        }
       },
       {
         "component": "commerce-picker:picker",
         "name": "singleCategory",
-        "label": "Sku of product",
+        "label": "Category",
         "valueType": "string",
-        "picker-selection-mode": "single",
-        "picker-selection-type": "item"
+        "commerce-picker": {
+          "selection-mode": "multiple",
+          "selection-type": "folder"
+        }
       },
       {
         "component": "commerce-picker:picker",
         "name": "anything",
-        "label": "Sku of product",
+        "label": "Anything commerce related",
         "valueType": "string",
-        "picker-selection-mode": "multiple",
-        "picker-selection-type": "any"
+        "commerce-picker": {
+          "selection-mode": "multiple",
+          "selection-type": "any"
+        }
       }
     ]
   },
