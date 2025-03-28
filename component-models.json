@@ -201,7 +201,7 @@
     "id": "product-teaser-new",
     "fields": [
       {
-        "component": "commerce-picker:sku",
+        "component": "commerce-picker:picker",
         "name": "sku",
         "label": "Sku of product",
         "valueType": "string"
