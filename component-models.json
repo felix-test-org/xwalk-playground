@@ -198,6 +198,17 @@
     ]
   },
   {
+    "id": "product-teaser-new",
+    "fields": [
+      {
+        "component": "commerce-picker:sku",
+        "name": "sku",
+        "label": "Sku of product",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "custom-asset",
     "fields": [
       {
