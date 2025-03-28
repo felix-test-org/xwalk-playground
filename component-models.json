@@ -204,7 +204,48 @@
         "component": "commerce-picker:picker",
         "name": "sku",
         "label": "Sku of product",
-        "valueType": "string"
+        "valueType": "string",
+        "test": {
+          "foo": "bar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "everything-commerce",
+    "fields": [
+      {
+        "component": "commerce-picker:picker",
+        "name": "singleSku",
+        "label": "Sku of product",
+        "valueType": "string",
+        "picker-selection-mode": "single",
+        "picker-selection-type": "item"
+
+      },
+      {
+        "component": "commerce-picker:picker",
+        "name": "manySku",
+        "label": "Sku of product",
+        "valueType": "string",
+        "picker-selection-mode": "multiple",
+        "picker-selection-type": "item"
+      },
+      {
+        "component": "commerce-picker:picker",
+        "name": "singleCategory",
+        "label": "Sku of product",
+        "valueType": "string",
+        "picker-selection-mode": "single",
+        "picker-selection-type": "item"
+      },
+      {
+        "component": "commerce-picker:picker",
+        "name": "anything",
+        "label": "Sku of product",
+        "valueType": "string",
+        "picker-selection-mode": "multiple",
+        "picker-selection-type": "any"
       }
     ]
   },

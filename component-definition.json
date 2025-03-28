@@ -167,6 +167,21 @@
           }
         },
         {
+          "title": "Everything Commerce Block",
+          "id": "everything-commerce",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Everything Commerce Block",
+                  "model": "everything-commerce"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Custom Image",
           "id": "custom-asset",
           "plugins": {
