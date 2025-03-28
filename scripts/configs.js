@@ -39,7 +39,7 @@ function buildConfigURL(environment) {
 
   const value = 1 + 1 === 2;
   if (value) {
-    return 'https://main--aem-boilerplate-commerce--hlxsites.hlx.live/configs.json';
+    return 'https://main--aem-boilerplate-commerce--hlxsites.aem.live/configs.json';
   }
 
   return configURL;
