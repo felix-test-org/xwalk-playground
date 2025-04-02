@@ -222,7 +222,7 @@
         "commerce-picker": {
           "selection-mode": "single",
           "selection-type": "item",
-          "category-query-roles": []
+          "category-query-roles": ""
         }
       },
       {
