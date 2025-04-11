@@ -206,7 +206,8 @@
         "label": "Sku of product",
         "valueType": "string",
         "commerce-picker": {
-          "selection-mode": "single"
+          "selection-mode": "single",
+          "selection-type": "item"
         }
       }
     ]
